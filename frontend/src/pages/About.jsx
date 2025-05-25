@@ -1,5 +1,9 @@
 import React from 'react'
 import { assets } from '../assets/assets_frontend/assets'
+import developer1 from "../assets/developers/saurav.jpg"
+import developer2 from "../assets/developers/anuj.png"
+import developer3 from "../assets/developers/tushar.jpeg"
+import developer4 from "../assets/developers/anku.jpeg"
 
 const About = () => {
   return (
@@ -46,19 +50,19 @@ const About = () => {
 
       <div className='grid grid-cols-2 sm:grid-cols-4 gap-6 text-center text-sm text-gray-700 mb-20'>
   <div>
-    <img className='w-48 h-48 rounded-full mx-auto object-cover' src="src\assets\developers\saurav.jpg" alt="Saurav" />
+    <img className='w-48 h-48 rounded-full mx-auto object-cover' src={developer1} alt="developer1" />
     <p className='mt-2 font-medium'>Saurav</p>
   </div>
   <div>
-    <img className='w-48 h-48 rounded-full mx-auto object-cover' src="src\assets\developers\anuj.png" alt="Anuj" />
+    <img className='w-48 h-48 rounded-full mx-auto object-cover' src={developer2} alt="developer2" />
     <p className='mt-2 font-medium'>Anuj</p>
   </div>
   <div>
-    <img className='w-48 h-48 rounded-full mx-auto object-cover' src="src\assets\developers\tushar.jpeg" alt="Tushar" />
+    <img className='w-48 h-48 rounded-full mx-auto object-cover' src={developer3} alt="developer3" />
     <p className='mt-2 font-medium'>Tushar</p>
   </div>
   <div>
-    <img className='w-48 h-48 rounded-full mx-auto object-cover' src="src\assets\developers\anku.jpeg" alt="Anku" />
+    <img className='w-48 h-48 rounded-full mx-auto object-cover' src={developer4} alt="developer4" />
     <p className='mt-2 font-medium'>Anku</p>
   </div>
 </div>
