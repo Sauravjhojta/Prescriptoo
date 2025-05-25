@@ -21,7 +21,7 @@ const Contact = () => {
 
           <p className='text-gray-500'>
             Tel: (+91) 7876719487 <br />
-            Email: <a href="mailto:quickDoc2025@gmail.com" className='underline hover:text-black'>quickDoc2025@gmail.com</a>
+            Email: <a href="mailto:quickDoc2025@gmail.com" className='underline hover:text-black'>quickdoc2025@gmail.com</a>
           </p>
 
           <p className='font-semibold text-lg text-gray-600'>CAREERS AT QUICKDOC</p>
