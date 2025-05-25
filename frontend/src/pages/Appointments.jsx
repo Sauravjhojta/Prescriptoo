@@ -95,7 +95,12 @@ if (!docInfo || !docInfo.slots_booked) return;
             return navigate('/login')
         }
 
-        const date = docSlots[slotIndex][0].datetime
+        if (!docSlots[slotIndex] || docSlots[slotIndex].length === 0) {
+  toast.error("No available slots on this day.");
+  return;
+}
+
+const date = docSlots[slotIndex][0].datetime;
 
         let day = date.getDate()
         let month = date.getMonth() + 1
@@ -121,6 +126,8 @@ if (!docInfo || !docInfo.slots_booked) return;
 
     }
 
+
+    
 
   useEffect(() => {
     fetchDocInfo();

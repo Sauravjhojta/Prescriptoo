@@ -42,6 +42,8 @@ const Slidebar = () => {
           <p className='hidden md:block'>Profile</p>
         </NavLink>
       </ul>}
+
+      
     </div>
   )
 }
